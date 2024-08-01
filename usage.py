@@ -1,7 +1,6 @@
 # https://huggingface.co/HODACHI/Llama-3.1-8B-EZO-1.1-it のUsageの内容です。
 import transformers
 import torch
-import time
 
 model_id = "HODACHI/Llama-3.1-8B-EZO-1.1-it"
 
