@@ -31,6 +31,14 @@ python3 usage.py
 ```
 ※`https://download.pytorch.org/whl/cu124`の部分は[こちら](https://pytorch.org)の**INSTALL PYTORCH**を参考に、インストールしたcudaのバージョンに合わせてください。
 
+## チャットについて
+```
+python3 chat.py
+```
+を実行することで、会話できます。
+
+会話中に`exit`と入力すると会話が終了します。
+
 # 実行エラーについて
 実行時に下記のエラーが発生した場合は`libomp140.x86_64.dll`が足りないようです。
 https://www.dllme.com/dll/files/libomp140_x86_64 からダウンロードしたDLLをPATHの通った場所(`.venv\Scripts`で良いと思う)に置くと解決します。  
